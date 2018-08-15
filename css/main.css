@@ -1,0 +1,61 @@
+/* All import tags must stay at the top of the css file */
+
+/* Custom Font */
+@import url('https://fonts.googleapis.com/css?family=Geo');
+
+.companyName{
+    font-family: 'Geo', sans-serif;
+}
+
+.resText{
+    font-size: 5vw;
+}
+
+.teamMemberLarge{
+    max-width: 100%;
+    max-height: 60%;
+    display: block;
+}
+
+.teamMemberSmall{
+    max-width: 100%;
+    max-height: 50%;
+    display: block;
+}
+
+.cardShort {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem
+}
+
+/* Custom modal size */
+.modal-xl{
+    max-width: 80% !important;
+    text-align: center;
+}
+
+
+/* Responsive Map */
+.responsive-map{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.responsive-map iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
