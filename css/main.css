@@ -7,6 +7,10 @@
     font-family: 'Geo', sans-serif;
 }
 
+.text-white > h5 > span {
+    font-size: 26px;
+}
+
 .resText{
     font-size: 5vw;
 }
@@ -59,3 +63,18 @@
     position:absolute;
 }
 
+
+/* Responsive elements for small screens */
+@media only screen and (max-width: 480px) {
+    .text-white > h5 > span {
+        font-size: 100%;
+    }
+
+    .navbar-brand > div {
+        font-size: 100%;
+    }
+
+    .resText {
+        font-size: 10vw;
+    }
+}
