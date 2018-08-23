@@ -15,4 +15,6 @@ Any external sources used for things such as example code, stock images and libr
 * [Pexels] - All current home page images
 
 
-### Example Code
+### Original Source
+* [Original Template] - https://startbootstrap.com/template-overviews/business-frontpage/
+* [GitHub] - https://github.com/BlackrockDigital/startbootstrap-business-frontpage 
