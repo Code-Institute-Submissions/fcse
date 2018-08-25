@@ -4,10 +4,10 @@
  */
 
 // an email address that will be in the From field of the email.
-$from = 'Demo contact form <info@fcse.org.uk>';
+$from = 'info@fcse.org.uk';
 
 // an email address that will receive the email with the output of the form
-$sendTo = 'Demo contact form <moe.hydar@outlook.com>';
+$sendTo = 'moe.hydar@outlook.com';
 
 // subject of the email
 $subject = 'Online Enquiry';
