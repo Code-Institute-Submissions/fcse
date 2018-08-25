@@ -5,8 +5,27 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="futureCoderSE">
+
+    <!-- favicon-->
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/manifest.json">
+
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 
     <!-- HTML Meta Tags -->
     <meta name="description" content="@futureCodersSE nurturing coding talent through work-experience">
@@ -36,14 +55,8 @@
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="css/business-frontpage.css" rel="stylesheet">
-
     <!-- Local CSS -->
     <link rel="stylesheet" type="text/css" href="css/main.css">
-
-    <!-- Font Awesome -->
-    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous"> -->
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -54,7 +67,9 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="index.html"><div class="h3 companyName"> &lt; futureCoderSE &#47; &gt; </div></a>
+            <a class="navbar-brand" href="index.html">
+                <div class="h3 companyName"> &lt; futureCoderSE &#47; &gt; </div>
+            </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
                 aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -62,12 +77,10 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home
-                        </a>
+                        <a class="nav-link" href="index.html">Home</a>
                     </li>
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="about.html">About</a>
-                        <span class="sr-only">(current)</span>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="events.html">Events Calender</a>
@@ -84,6 +97,10 @@
                     <li class="nav-item">
                         <a class="nav-link" href="https://medium.com/@futureCodersSE" target="_blank">Blog</a>
                     </li>
+                    <li>
+                        <a class="nav-link active" href="contact.html">Contact Us</a>
+                        <span class="sr-only">(current)</span>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -92,117 +109,81 @@
     <!-- Page Content -->
     <div class="container">
 
-        <div class="row">
-            <div class="col-sm-12">
-                <h1 class="mt-4">Who Are We?</h1>
-                <p>
-                    Started in 2016, @futureCodersSE aims to create great coders and to link them with employers. We work with young people,
-                    aged between 16 and 24. We help them learn to code through our education programme, of hackathons, coding
-                    workshops, project workshops and careers events. We help them to become more skilled and more employable
-                    through our work experience programme. We certify their skills, attitudes and behaviours in line with
-                    the SFIA skills framework and introduce them to employers.
-                </p>
-                <p>
-                    We don't pretend coding is easy and we encourage all our young participants to work hard, to practice their skills and so
-                    to improve. We know that this has benefits in terms of employability and digital literacy.
-                </p>
-                <p>
-                    We work with schools, colleges, youth organisations and businesses to identify, encourage and develop young people. Young
-                    people can apply directly to be part of our work-experience programme, or might be identified and encouraged
-                    through our education programme. Our certification process can help employers have more confidence in
-                    recruiting a young person.
-                </p>
-                <h2>What's Our Mission</h2>
-                <p>
-                    Is to increase the number of UK educated, skilled, young developers in the talent pool to help digital businesses in the
-                    UK thrive for generations to come.
-                </p>
-                <h2>Meet Our Team</h2>
-            </div>
-        </div>
+        <div class="row gap">
+            <div class="col-xl-12 py-4">
+                <h1>Contact Us</h1>
+                <p class="lead">This is a demo of a contact form</p>
 
-        <!-- /.row -->
+                <form id="contact-form" method="POST" action="scripts/contact.php" role="form">
 
-        <div class="row">
-            <div class="col-sm-6 my-6">
-                <div class="card">
-                    <img class="card-img-top teamMemberLarge" src="http://placehold.it/300x200" alt="Emily Orton">
-                    <div class="card-body">
-                        <h4 class="card-title">Emily Orton</h4>
-                        <h6>Co-Founder</h6>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi
-                            doloribus.
-                        </p>
-                    </div>
-                    <div class="card-footer">
-                        <a href="#" class="btn btn-primary">Contact</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 my-6">
-                <div class="card">
-                    <img class="card-img-top teamMemberLarge" src="http://placehold.it/300x200" alt="Karen Scott">
-                    <div class="card-body">
-                        <h4 class="card-title">Karen Scott</h4>
-                        <h6>Co-Founder</h6>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi
-                            doloribus.
-                        </p>
-                    </div>
-                    <div class="card-footer">
-                        <a href="#" class="btn btn-primary">Contact</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- /.row -->
+                    <div class="messages"></div>
 
-        <!-- /.row -->
-        <div class="row">
-            <div class="col-sm-4 my-4">
-                <div class="cardShort">
-                    <img class="card-img-top teamMemberSmall" src="http://placehold.it/300x200" alt="Maggy Burns">
-                    <div class="card-body">
-                        <h4 class="card-title text-center">Maggy Burns</h4>
-                        <h6 class="text-center">Volunteer</h6>
-                        <!-- <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi
-                            doloribus.
-                        </p> -->
+                    <div class="controls">
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="form_name">First Name *</label>
+                                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Please nter your first name" required="required"
+                                        data-error="Firstname is required.">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="form_lastname">Last Name *</label>
+                                    <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your last name" required="required"
+                                        data-error="Lastname is required.">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="form_email">Email *</label>
+                                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email address" required="required"
+                                        data-error="Valid email is required.">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="form_phone">Phone</label>
+                                    <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone number">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for="form_message">Message *</label>
+                                    <textarea id="form_message" name="message" class="form-control" placeholder="Please describe your enquiry ..." rows="4" required="required"
+                                        data-error="Please, leave us a message."></textarea>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <input type="submit" class="btn btn-primary btn-send" value="Send message">
+                            </div>
+                        </div>
+                        <br />
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p class="text-muted">
+                                    <strong>*</strong> These fields are required.
+                            </div>
+                        </div>
                     </div>
-                    <div class="card-footer">
-                        <a href="#" class="btn btn-primary">Contact</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4 my-4">
-                <div class="cardShort">
-                    <img class="card-img-top teamMemberSmall" src="http://placehold.it/300x200" alt="Anthony Funai">
-                    <div class="card-body">
-                        <h4 class="card-title text-center">Anthony Funai</h4>
-                        <h6 class="text-center">Student Developer</h6>
-                    </div>
-                    <div class="card-footer">
-                        <a href="#" class="btn btn-primary">Contact</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4 my-4">
-                <div class="cardShort">
-                    <img class="card-img-top teamMemberSmall" src="http://placehold.it/300x200" alt="Jamie Knott">
-                    <div class="card-body">
-                        <h4 class="card-titleSmall text-center">Jamie Knott</h4>
-                        <h6 class="text-center">Student Developer</h6>
-                        <!-- <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p> -->
-                    </div>
-                    <div class="card-footer">
-                        <a href="#" class="btn btn-primary">Contact</a>
-                    </div>
-                </div>
+                </form>
             </div>
         </div>
         <!-- /.row -->
 
-        <div class="row">
+    <div class="row">
             <div class="col-sm-4">
                 <h1>Where To Find Us</h1>
                 <address>
@@ -236,7 +217,8 @@
                     Copyright &copy;
                     <script type="text/javascript">
                         document.write(new Date().getFullYear());
-                    </script>, &lt; futureCoderSE &#47; &gt;
+                    </script>,
+                    <span class="companyName">&lt; futureCoderSE &#47; &gt;</span>
                 </h5>
                 <h6>
                     Company No: 10593417
@@ -267,7 +249,12 @@
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js" integrity="sha256-dHf/YjH1A4tewEsKUSmNnV05DDbfGN3g7NMq86xgGh8="
+        crossorigin="anonymous"></script>
+    <script src="scripts/contact.js"></script>
 
 </body>
 
