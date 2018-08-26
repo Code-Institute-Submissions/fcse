@@ -2,11 +2,11 @@
 
 Internal development of a new website for futureCodersSE
 
-## Prerequisites
+### Prerequisites
 
 Any external sources used for things such as example code, stock images and libraries, should be listed below within the suitable headings.
 
-## Demo
+### Demo
 
 https://fcse.azurewebsites.net/ 
 
