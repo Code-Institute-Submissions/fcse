@@ -112,9 +112,9 @@
         <div class="row gap">
             <div class="col-xl-12 py-4">
                 <h1>Contact Us</h1>
-                <p class="lead">This is a demo of a contact form</p>
+                <p class="lead">If you have any questions, please feel free to use our contact form below and we will get back to you as soon as possible. </p>
 
-                <form id="contact-form" method="POST" action="scripts/contact.php" role="form">
+                <form id="contact-form" method="POST" action="scripts/contact.php" role="form" autocomplete="on">
 
                     <div class="messages"></div>
 
@@ -124,8 +124,8 @@
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="form_name">First Name *</label>
-                                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Please nter your first name" required="required"
-                                        data-error="Firstname is required.">
+                                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your first name" required="required"
+                                        data-error="First name is required.">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
@@ -134,7 +134,7 @@
                                 <div class="form-group">
                                     <label for="form_lastname">Last Name *</label>
                                     <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your last name" required="required"
-                                        data-error="Lastname is required.">
+                                        data-error="Last name is required.">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
@@ -145,14 +145,14 @@
                                 <div class="form-group">
                                     <label for="form_email">Email *</label>
                                     <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email address" required="required"
-                                        data-error="Valid email is required.">
+                                        data-error="A valid email address is required." autocomplete="email">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label for="form_phone">Phone</label>
-                                    <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone number">
+                                    <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your contact number">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
