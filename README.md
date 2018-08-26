@@ -6,6 +6,10 @@ Internal development of a new website for futureCodersSE
 
 Any external sources used for things such as example code, stock images and libraries, should be listed below within the suitable headings.
 
+## Demo
+
+https://fcse.azurewebsites.net/ 
+
 ### External Libraries
 * [Bootstrap] - Used throughout the website
 * [Google Fonts] - Used to make website logo
@@ -13,7 +17,6 @@ Any external sources used for things such as example code, stock images and libr
 
 ### Stock Images
 * [Pexels] - All current home page images
-
 
 ### Original Source
 * [Original Template] - https://startbootstrap.com/template-overviews/business-frontpage/
